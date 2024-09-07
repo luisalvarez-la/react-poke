@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-image: url('./assets/pokemon-eevee-evolution-poster-61x91.5cm_3.jpg');
+    background-size: 100vw 100vh; /* Set the size to the full viewport width and height */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed; /* Prevent the image from scrolling */
+  }
+
+h1, h2, h3, p, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
